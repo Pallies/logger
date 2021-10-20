@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<!-- redirection des logs vers la sortir Console Standard -->
+	<appender name="STDOUT"
+		class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+	<!-- redirection des logs vers le fichier app.log -->
+	<appender name="FILE" class="ch.qos.logback.core.FileAppender">
+		<file>app.log</file> <!--création du fichier -->
+		<append>true</append><!-- ajout -->
+		<immediateFlush>true</immediateFlush>
+		<encoder><!-- pattern utiliser à l'insertion des logs -->
+			<pattern>[%thread] to date: %d{dd/MM/yyyy} at: %d{HH:mm} to Class %-5level  %logger{36}  ref-Object : %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+	<!-- dev.service => référence au package 
+	DEBUG => pour la méthode utilisée 
+	LOG.debug ref="STDOUT" => sortie console -->
+	<logger name="dev.service">
+		<!-- <appender-ref ref="STDOUT" />s'inscrit dans la console -->
+		<appender-ref ref="FILE" />  <!-- s'inscrit dans le fichier -->
+	</logger>
+	<!-- dev.console => référence au package 
+	INFO => pour la méthode utilisée 
+	LOG.debug ref="FILE" => sortie fichier -->
+    <logger name="dev.console" level="INFO">
+		<appender-ref ref="FILE" />
+	</logger> 
+	
+	<logger name="Test" level="WARN">
+		<appender-ref ref="FILE"/>
+	</logger>
+	<!-- regle de logs par defaut. Ici : niveau INFO vers la sortie standard -->
+	<root level="INFO">
+		<appender-ref ref="STDOUT" />
+	</root>
+</configuration>
