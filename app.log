@@ -1,20 +1,6 @@
-[main] to date: 20/10/2021 at: 22:10 to Class INFO   dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=INFO in class logger.dev.console.Test]
-[main] to date: 20/10/2021 at: 22:10 to Class WARN   dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=WARN in class logger.dev.console.Test]
-[main] to date: 20/10/2021 at: 22:10 to Class ERROR  dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=ERROR in class logger.dev.console.Test]
-[main] to date: 20/10/2021 at: 22:10 to Class INFO   dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=INFO in class logger.dev.console.Test]
-[main] to date: 20/10/2021 at: 22:10 to Class WARN   dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=WARN in class logger.dev.console.Test]
-[main] to date: 20/10/2021 at: 22:10 to Class ERROR  dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=ERROR in class logger.dev.console.Test]
-[main] to date: 20/10/2021 at: 22:11 to Class INFO   dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=INFO in class logger.dev.console.Test]
-[main] to date: 20/10/2021 at: 22:11 to Class WARN   dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=WARN in class logger.dev.console.Test]
-[main] to date: 20/10/2021 at: 22:11 to Class ERROR  dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=ERROR in class logger.dev.console.Test]
-[main] to date: 20/10/2021 at: 22:16 to Class INFO   dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=INFO in class logger.dev.console.Test]
-[main] to date: 20/10/2021 at: 22:16 to Class WARN   dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=WARN in class logger.dev.console.Test]
-[main] to date: 20/10/2021 at: 22:16 to Class ERROR  dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=ERROR in class logger.dev.console.Test]
-[main] to date: 20/10/2021 at: 22:17 to Class WARN   Test  ref-Object : Création de l'objet Test.class
-[main] to date: 20/10/2021 at: 22:17 to Class WARN   Test  ref-Object : Création de l'objet Test.class
-[main] to date: 20/10/2021 at: 22:17 to Class WARN   Test  ref-Object : Création de l'objet Test.class
-[main] to date: 20/10/2021 at: 22:17 to Class INFO   dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=INFO in class logger.dev.console.Test]
-[main] to date: 20/10/2021 at: 22:17 to Class WARN   Test  ref-Object : Création de l'objet Test.class
-[main] to date: 20/10/2021 at: 22:17 to Class WARN   dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=WARN in class logger.dev.console.Test]
-[main] to date: 20/10/2021 at: 22:17 to Class WARN   Test  ref-Object : Création de l'objet Test.class
-[main] to date: 20/10/2021 at: 22:17 to Class ERROR  dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=ERROR in class logger.dev.console.Test]
+[main] to date: 21/10/2021 at: 10:15 to Class INFO   dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=INFO in class logger.dev.console.Test]
+[main] to date: 21/10/2021 at: 10:15 to Class WARN   dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=WARN in class logger.dev.console.Test]
+[main] to date: 21/10/2021 at: 10:15 to Class ERROR  dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=ERROR in class logger.dev.console.Test]
+[main] to date: 21/10/2021 at: 10:27 to Class INFO   dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=INFO in class logger.dev.console.Test]
+[main] to date: 21/10/2021 at: 10:27 to Class WARN   dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=WARN in class logger.dev.console.Test]
+[main] to date: 21/10/2021 at: 10:27 to Class ERROR  dev.service.AppService  ref-Object : Traitement 1 : param = Test [chaine=ERROR in class logger.dev.console.Test]

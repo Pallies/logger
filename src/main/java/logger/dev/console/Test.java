@@ -12,11 +12,12 @@ import org.slf4j.LoggerFactory;
  */
 public class Test {
 
-	private static final Logger LOGGER_TEST= LoggerFactory.getLogger("Test");
+	private static final Logger LOGGER_TEST= LoggerFactory.getLogger("LoggerClassTest");
 	private StringBuilder chaine = new StringBuilder();
 
 	public Test(String message) {
 		LOGGER_TEST.warn("Création de l'objet Test.class");
+//		LOGGER_TEST.error("Création de l'objet Test.class");
 	chaine.append(message).append(" in ").append(this.getClass());
 	}
 

@@ -18,6 +18,16 @@
 			</pattern>
 		</encoder>
 	</appender>
+		<!-- redirection des logs vers le fichier app.log -->
+	<appender name="FILE_WARN" class="ch.qos.logback.core.FileAppender">
+		<file>log_warn.log</file> <!--création du fichier -->
+		<append>true</append><!-- ajout -->
+		<immediateFlush>true</immediateFlush>
+		<encoder><!-- pattern utiliser à l'insertion des logs -->
+			<pattern>%logger{n} to date: %d{dd/MM/yyyy}  %level : %msg%n
+			</pattern>
+		</encoder>
+	</appender>
 	<!-- dev.service => référence au package 
 	DEBUG => pour la méthode utilisée 
 	LOG.debug ref="STDOUT" => sortie console -->
@@ -31,9 +41,11 @@
     <logger name="dev.console" level="INFO">
 		<appender-ref ref="FILE" />
 	</logger> 
-	
-	<logger name="Test" level="WARN">
-		<appender-ref ref="FILE"/>
+		<!-- LoggerClassTest => référence à la Class Test 
+	WARN => pour la méthode utilisée 
+	LOG.warn ref="FILE_WARN" => sortie fichier (voir appender)-->
+	<logger name="LoggerClassTest" level="WARN" additivity="false">
+		<appender-ref ref="FILE_WARN"/>
 	</logger>
 	<!-- regle de logs par defaut. Ici : niveau INFO vers la sortie standard -->
 	<root level="INFO">
